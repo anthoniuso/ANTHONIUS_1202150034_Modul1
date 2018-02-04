@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">ANTHONIUS_1202150034_MODUL1</string>
+    <string name="app_name">StudyCase</string>
+    <string name="header1">Makan Malam</string>
+    <string name="header2">dengan Milea</string>
+    <string name="nasi_uduk">Nasi Uduk</string>
+    <string name="porsi_makanan">2</string>
 </resources>

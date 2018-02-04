@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, ResultActivity.class);
                 String inputMakanan = makanan.getText().toString();
-                String inputPorsi = porsi.getText().toString();
+                int inputPorsi = Integer.parseInt(porsi.getText().toString());
                 String inputAbnormal = abnormal.getText().toString();
 
                 intent.putExtra("makanan", inputMakanan);
